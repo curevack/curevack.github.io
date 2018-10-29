@@ -1,17 +1,12 @@
 button {
   background-color: blue;
-  border: medium solid black;
   color: #FFFFFF;
   text-align: center;
   font-size: 150%;
   margin: 5px;
-  }
-
-button {
   padding: 20px;
   border: 10px aqua double;    
   border-radius: 15px;
-  }
 
 button:hover {
   background-color: green;
