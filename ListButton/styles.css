@@ -13,11 +13,11 @@ button {
   border-radius: 15px;
   }
 
-button {
+button:hover {
   background-color: green;
   border-color: white;
   }
 
-button {
+button:active {
   color: orange;
   }
