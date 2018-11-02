@@ -1,19 +1,19 @@
 .ghbc {
   background-color: lightblue;
   }
- nav {        
+ .nav-hp {        
   background-color: yellowgreen;
   border: 1px green solid;
   padding: 8px;
   margin: -1px 0px 0px 0px;
   text-align: center;
   }
- nav ul {
+ .nav-ulhp {
   list-style-type: none;
   margin: 0;
   padding: 0;
   }
-  nav li {
+  .nav-lihp {
   display: inline;
   padding: 8px;    
   }
