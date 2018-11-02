@@ -1,4 +1,4 @@
-.bcolor {
+  .bcolor {
     background-color: black;
   }
   .hmcolor{
@@ -7,13 +7,12 @@
   .nav-color {        
     border: 1px;
     padding: 20px;
-    margin: -1px 450px 0px 450px;
+    margin: -1px 200px 0px 200px;
 }
   .nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
-    
 }
   .nav-li {
     display: inline;
@@ -92,11 +91,118 @@
     font-size: 120%;
     color: white;
   }
+  .footerstyle-r {
+    font-size: 120%;
+    color: red;
+  }
   .captioncolor {
       color: white;
       background-color: black;
       font-size: 75%;
   }
-  .figimg {
+  .figright {
       float:right;
+  }
+  .imgcenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 510px;
+  }
+  .subheading {
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2.25vw;
+      text-align: left;
+      padding: 20px;
+  }
+  .pcolorfont2 {
+    color: white;
+    font-size: 2.25vw;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+  }
+  .ul-movie {
+    color: white;
+    list-style-type: disc;
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+  }
+  .li-movie {
+    display: block;
+    padding: 5px;
+    font-size: 2vw;
+    color: white;
+  }
+  .imgcenter-f {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 399px;
+    height: 515px;
+  }
+  .figleft {
+    float:left;
+  }
+  .imgleft {
+    display: block;
+    width: 530px;
+    height: 475px;
+    margin: 0px 50px 0px 0px;
+  }
+  .subheading-center {
+    color: white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2.25vw;
+      text-align: center;
+      padding: 5px;
+  }
+  .pfontright {
+     color: white;
+    font-size: 2.25vw;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
+  .figcap {
+    padding-bottom: 50px;
+  }
+  .imgright-f {
+    display: block;
+    width: 530px;
+    height: 475px;
+    margin: 0px 0px 0px 0px;
+    object-fit: cover;
+  }
+  .p-leftside {
+    color: white;
+    font-size: 2.25vw;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 10px 50px 10px;
+  }
+  .imgleft-cover {
+    display: block;
+    width: 530px;
+    height: 475px;
+    margin: 0px 50px 0px 0px;
+    object-fit: cover;
+  }
+  .pabout {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1.8vw;
+    padding: 15px;
+  }
+  .aboutaside {
+    text-align: center;
+    float: right;
+    background-color: #212b31;
+    color: white;
+    border: 1px solid red;
+    width: 20%;
+    border-radius: 15%;
   }
