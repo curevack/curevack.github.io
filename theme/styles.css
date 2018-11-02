@@ -27,17 +27,18 @@
   .p-mhset {
     color: white;
     background-color: black;
-    padding:22px;
+    padding:20px;
     display: auto;
     font-size: 2.5vw;
     font-family: 'Courier New', Courier, monospace;
-    width:75%;
+    width: 60%;
     border: 5px;
   }
   .img-float-right {
     float: right;
     height: 550px;
     width: 500px;
+    vertical-align: top;
   }
   .clearfix {
     overflow: auto;
@@ -90,4 +91,12 @@
   .footerstyle {
     font-size: 120%;
     color: white;
+  }
+  .captioncolor {
+      color: white;
+      background-color: black;
+      font-size: 75%;
+  }
+  .figimg {
+      float:right;
   }
