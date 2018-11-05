@@ -70,6 +70,13 @@
     text-align: center;
     color: white;
   }
+  .byline2 {
+    font-style: italic;
+    font-size: 100%;
+    font-family: courier;
+    text-align: center;
+    color: black;
+  }
   .headermh {
     background-color: black;
     text-align: center;
@@ -205,4 +212,7 @@
     border: 1px solid red;
     width: 20%;
     border-radius: 15%;
+  }
+  .center {
+    text-align: center;
   }
