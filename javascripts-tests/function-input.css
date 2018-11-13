@@ -1,13 +1,27 @@
-    button {
-        float: left;
-        width: 150px;
+ button {
+    background-color: green;
+    color: #FFFFFF;
+    text-align: center;
+    border: 3px red;
+    font-size: 150%;
+    float: left;
+    width: 150px;
     }
     
-    input {
-        float: left;
-        width: 45px;
+ input {
+    float: left;
+    width: 45px;
     }
     
-    div {
-        clear: both;
+ div {
+    clear: both;
     }
+
+button:hover {
+  background-color: orange;
+  border-color: white;
+  }
+
+button:active {
+  color: cyan;
+  }
