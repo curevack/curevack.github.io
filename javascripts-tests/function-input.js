@@ -30,7 +30,7 @@ window.onload = () => {
         const areaOfTriangleInput2 = document.getElementById('area-of-triangle-input2');
         const areaOfTriangleDisplay = document.getElementById('area-of-triangle-display');
 
-        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
+        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value, areaOfTriangleInput2.input);
     };
   
     areaOfCircleAction.onclick = () => {
@@ -50,8 +50,6 @@ window.onload = () => {
   };
   
   function areaOfTriangle (base, height) {
-    const base = areaOfTriangleInput;
-    const height = areaOfTriangleInput2;
     return (base * height) / 2; 
     
   };
