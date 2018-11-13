@@ -3,10 +3,11 @@ window.onload = () => {
   const functionParameters = document.getElementById('function-parameters');
   const functionReturn = document.getElementById('function-return');
   const functionCalls = document.getElementById('function-calls');
-    simpleFunction();
-    functionParameters("Many functions take parameters.")
-    functionReturn();
-    functionCalls.onclick = simpleFunction, functionParameters, functionReturn;
+    functionCalls.onclick = () => {
+      simpleFunction();
+      functionParameters(); 
+      functionReturn();
+    }
   }
 
   function simpleFunction () {
