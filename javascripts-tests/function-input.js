@@ -52,6 +52,6 @@ window.onload = () => {
     return (base * height) / 2; 
     
   };
-  funciton areaOfCircle (radius) {
+  function areaOfCircle (radius) {
     return Math.PI * (radius ** 2);
   };
