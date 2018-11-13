@@ -4,10 +4,11 @@ window.onload = () => {
     const functionReturn = document.getElementById('function-return');
     const functionCalls = document.getElementById('function-calls');
       functionCalls.onclick = () => {
-        simpleFunction.textContent = simpleFunction();
-        functionParameters.textContent = functionParameters('Many functions take parameters.');
-        functionReturn.textContent= functionReturn();
+        simpleFunction();
+        functionParameters();
+        functionReturn();
       }
+    }
       function simpleFunction () {
         console.log('functions should consist of statements designed to perform a single task.');
         simpleFunction.textContent = 'functions should consist of statements designed to perform a single task.';
@@ -20,4 +21,3 @@ window.onload = () => {
         functionReturn.textContent = 'Many functions return values.';
         return 'Many functions return values.';
         }
-    }
