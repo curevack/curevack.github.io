@@ -50,6 +50,8 @@ window.onload = () => {
   };
   
   function areaOfTriangle (base, height) {
+    const base = areaOfTriangleInput;
+    const height = areaOfTriangleInput2;
     return (base * height) / 2; 
     
   };
