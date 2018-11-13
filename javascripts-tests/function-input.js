@@ -27,6 +27,7 @@ window.onload = () => {
  
     areaOfTriangleAction.onclick = () => {
         const areaOfTriangleInput = document.getElementById('area-of-triangle-input');
+        const areaOfTriangleInput2 = document.getElementById('area-of-triangle-input2');
         const areaOfTriangleDisplay = document.getElementById('area-of-triangle-display');
 
         areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
