@@ -6,17 +6,17 @@ window.onload = {
   
   function simpleFunction {
      console.log('functions should consist of statements designed to perform a single task.');
-     simpleFunction.textcontent = 'functions should consist of statements designed to perform a single task.';
+     simpleFunction.textContent = 'functions should consist of statements designed to perform a single task.';
       functionCalls.onclick = simpleFunction;
      }
   functionCalls.onclick = simpleFunction;
   function functionParameters (input) {
      console.log(input);
-     functionParameters.textcontent = input;
+     functionParameters.textContent = input;
      }
   functionCalls.onclick = functionParameters;
   function functionReturn {
-     functionReturn.textcontent = 'Many functions return values.';
+     functionReturn.textContent = 'Many functions return values.';
      return 'Many functions return values.';
      }
   functionCalls.onclick = functionReturn;
