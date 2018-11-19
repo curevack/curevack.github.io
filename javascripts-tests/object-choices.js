@@ -11,7 +11,7 @@
     simpleObjectAction.onclick = () => {
         const simpleObjectDisplay = document.getElementById('simple-object-display');
 
-        simpleObjectDisplay.textContent = simpleObject.sayName(); + " " + simpleObject.dynamicMethod;
+        simpleObjectDisplay.textContent = simpleObject.sayName(); + " " + 'Dynamic Method';
     }; 
 
     functionObjectAction.onclick = () => {
