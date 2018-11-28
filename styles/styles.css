@@ -14,7 +14,7 @@
   padding: 0;
   }
   .nav-lihp {
-  display: inline;
+  display: inline block;
   padding: 8px;    
   }
   .fontcolor {
