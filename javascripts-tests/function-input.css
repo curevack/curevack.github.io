@@ -2,7 +2,6 @@
     background-color: green;
     color: #FFFFFF;
     text-align: center;
-    border: 3px red;
     font-size: 150%;
     float: left;
     width: 150px;
@@ -13,6 +12,8 @@
  input {
     float: left;
     width: 150px;
+    font-size: 150%;
+    border: 3px black;
     }
     
  div {
