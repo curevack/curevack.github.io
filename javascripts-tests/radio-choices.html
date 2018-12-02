@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Radio Choices</title>
     <script src="radio-choices.js"></script>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link id="lstyle" rel="stylesheet" href="radiostyles/default.css">
   </head>
   
   <body>
@@ -26,13 +26,32 @@
       <section id="form-section">
        <fieldset>
          <legend>Our Form</legend>
-         <!-- OUR FORM GOES HERE -->
+            <form id="sort-type" action="goThere">
+                <input type="radio" id="blue" name="sorter" value="Blue" checked>
+                <label for="blue">Blue</label>
+        
+                <input type="radio" id="green" name="sorter" value="Green">
+                <label for="green">Green</label>
+    
+                <input type="radio" id="red" name="sorter" value="Red">
+                <label for="red">Red</label>
+        
+                <input type="radio" id="yellow" name="sorter" value="Yellow">
+                <label for="yellow">Yellow</label>
+    
+                <input type="radio" id="purple" name="sorter" value="Purple">
+                <label for="purple">Purple</label>
+                  <div>
+                    <input class="btn-padding" type="submit" value="Submit">
+                  </div>
+            </form>
        </fieldset>
       </section>
     </main>
     
     <footer>
-    
+        <p>© 2018 Kerim Curevac</p>
+        <li><a href="https://curevack.github.io">Home</a></li>
     </footer>
     
   </body>
