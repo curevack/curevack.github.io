@@ -1,0 +1,14 @@
+body {
+    background-color: cyan;
+   }
+   
+form {
+    background-color: green;
+   }
+footer {
+    margin: 100px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+  }

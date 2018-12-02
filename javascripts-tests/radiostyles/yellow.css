@@ -1,0 +1,13 @@
+body {
+    background-color: cyan;
+   }   
+form {
+    background-color: yellow;
+   }
+footer {
+    margin: 100px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+  }
