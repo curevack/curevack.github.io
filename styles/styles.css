@@ -9,12 +9,11 @@
   text-align: center;
   }
  .nav-ulhp {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   }
   .nav-lihp {
-  display: inline block;
+  display: block;
   padding: 8px;    
   }
   .fontcolor {
