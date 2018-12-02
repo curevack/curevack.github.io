@@ -1,0 +1,10 @@
+body {
+ background-color: cyan;
+}
+footer {
+    margin: 100px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+  }
