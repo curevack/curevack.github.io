@@ -1,0 +1,218 @@
+.bcolor {
+    background-color: darkgrey;
+  }
+  .hmcolor{
+    background-color: darkgrey;
+  }
+  .nav-color {        
+    border: 1px;
+    padding: 20px;
+    margin: -1px 200px 0px 200px;
+}
+  .nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+  .nav-li {
+    display: inline;
+    padding: 20px;    
+}
+  .a-navmh {
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+  }
+  .p-mhset {
+    color: black;
+    background-color: darkgrey;
+    padding:20px;
+    display: auto;
+    font-size: 2.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    border: 5px;
+  }
+  .img-float-right {
+    float: right;
+    height: 550px;
+    width: 500px;
+    vertical-align: top;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  .ul-slasher {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+  }
+  .li-boxed {
+    display: inline;
+    padding: 30px;
+    font-size: 2.5vw;
+  }
+  .title-resize {
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+  .a-red {
+    color:red;
+  }
+  .byline {
+    font-style: italic;
+    font-size: 100%;
+    font-family: courier;
+    text-align: center;
+    color: black;
+  }
+  .byline2 {
+    font-style: italic;
+    font-size: 100%;
+    font-family: courier;
+    text-align: center;
+    color: black;
+  }
+  .headermh {
+    background-color: black;
+    text-align: center;
+  }
+  .pcenter {
+    text-align:center;
+  }
+  .pcolorfont {
+    color: black;
+    font-size: 2.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 22px;
+  }
+  .footerspace {
+    padding: 100px 0 0 0;
+    text-align: center;
+  }
+  .footerstyle {
+    font-size: 120%;
+    color: black;
+  }
+  .footerstyle-r {
+    font-size: 120%;
+    color: red;
+  }
+  .captioncolor {
+      color: white;
+      background-color: black;
+      font-size: 75%;
+  }
+  .figright {
+      float:right;
+  }
+  .imgcenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 510px;
+  }
+  .subheading {
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2.25vw;
+      text-align: left;
+      padding: 20px;
+  }
+  .pcolorfont2 {
+    color: black;
+    font-size: 2.25vw;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+  }
+  .ul-movie {
+    color: black;
+    list-style-type: disc;
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+  }
+  .li-movie {
+    display: block;
+    padding: 5px;
+    font-size: 2vw;
+    color: black;
+  }
+  .imgcenter-f {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 399px;
+    height: 515px;
+  }
+  .figleft {
+    float:left;
+  }
+  .imgleft {
+    display: block;
+    width: 530px;
+    height: 475px;
+    margin: 0px 50px 0px 0px;
+  }
+  .subheading-center {
+    color: black;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2.25vw;
+      text-align: center;
+      padding: 5px;
+  }
+  .pfontright {
+     color: black;
+    font-size: 2.25vw;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
+  .figcap {
+    padding-bottom: 50px;
+  }
+  .imgright-f {
+    display: block;
+    width: 530px;
+    height: 475px;
+    margin: 0px 0px 0px 0px;
+    object-fit: cover;
+  }
+  .p-leftside {
+    color: black;
+    font-size: 2.25vw;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 10px 50px 10px;
+  }
+  .imgleft-cover {
+    display: block;
+    width: 530px;
+    height: 475px;
+    margin: 0px 50px 0px 0px;
+    object-fit: cover;
+  }
+  .pabout {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 1.8vw;
+    padding: 15px;
+  }
+  .aboutaside {
+    text-align: center;
+    float: right;
+    background-color: #212b31;
+    color: black;
+    border: 1px solid red;
+    width: 20%;
+    border-radius: 15%;
+  }
+  .center {
+    text-align: center;
+  }
