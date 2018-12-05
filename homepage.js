@@ -6,8 +6,8 @@ window.onload = () => {
     const dark = document.getElementById('dark');
 
     regularButton.onclick = () => {
-        disableStylesheet(regular);
-        enableStylesheet(dark);
+        disableStylesheet(dark);
+        enableStylesheet(regular);
     }
 
     darkButton.onclick = () => {
