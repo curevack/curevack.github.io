@@ -103,8 +103,8 @@
     color: red;
   }
   .captioncolor {
-      color: white;
-      background-color: black;
+      color: black;
+      background-color: darkgrey;
       font-size: 75%;
   }
   .figright {
