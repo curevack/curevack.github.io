@@ -1,7 +1,7 @@
 window.onload = () => {
 
-    const regularButton = document.getElementById('darkAction');
-    const darkButton = document.getElementById('lightAction');
+    const darkButton = document.getElementById('darkAction');
+    const lightButton = document.getElementById('lightAction');
     const dark = document.getElementById('dark');
     const light = document.getElementById('light');
 
