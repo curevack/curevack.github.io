@@ -1,0 +1,34 @@
+.ghbc {
+  background-color: black;
+  color: white;
+  }
+ .nav-hp {        
+  background-color: black;
+  border: 1px green solid;
+  padding: 8px;
+  margin: -1px 0px 0px 0px;
+  text-align: center;
+  }
+ .nav-ulhp {
+  margin: 0;
+  padding: 0;
+  }
+  .nav-lihp {
+  display: block;
+  padding: 8px;    
+  }
+  .fontcolor {
+   color: red;
+  )
+  .text-center {
+    text-align: center;
+  }
+  .fontSerifHumanist {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  .fontTimesRoman {
+    font-family: 'Times New Roman', Times, serif;
+    }
+   .point20-font {
+     font-size: 26 px;
+    }
